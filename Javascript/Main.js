@@ -70,10 +70,16 @@ Main.enableKeys = function()
     document.getElementById("anchor").focus();
 }
 
+    Main.keyUp = function()
+    {
+        var keyCode = event.keyCode;
+        alert("Key pressed(keyup): " + keyCode);
+    }
+
     Main.keyDown = function()
     {
         var keyCode = event.keyCode;
-        alert("Key pressed: " + keyCode);
+        alert("Key pressed(keydown): " + keyCode);
 
         switch(keyCode)
         {

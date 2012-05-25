@@ -29,7 +29,7 @@
     <body onload="Main.onLoad();" style="height: 540px; overflow:hidden; margin: 0px;" onunload="Main.onUnload();">
 	
 	    <!-- Dummy anchor as focus for key events -->
-        <a href='javascript:void(0);' id='anchor' onkeydown='Main.keyDown();'></a>
+        <a href='javascript:void(0);' id='anchor' onkeyup='Main.keyUp();' onkeydown='Main.keyDown();'></a>
         <!-- Layout begins -->
         <div id="main">
             <div id="logo">VidSample</div>
