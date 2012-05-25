@@ -20,14 +20,14 @@
     <audiomute>n</audiomute>
     <videomute>n</videomute>
     <dcont>y</dcont>
-    <widgetname>VideoTutorial</widgetname>
+    <widgetname>VideoTutorial - keyup</widgetname>
     <description></description>
     <width>960</width>
     <height>540</height>
     <author>
-        <name>Bagel Tech News</name>
-        <email>bageltechnews@gmail.com</email>
-        <link>http://www.bageltechnews.com/?cat=31</link>
-        <organization>Bagel Tech News</organization>
+        <name>VidSample keyup</name>
+        <email>dontuse@test.com</email>
+        <link>http://www.google.com/</link>
+        <organization>TESTER</organization>
     </author>
 </widget>

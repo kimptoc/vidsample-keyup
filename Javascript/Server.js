@@ -5,7 +5,7 @@ var Server =
     
     XHRObj : null,
 //    url : "XML/videoList.xml"
-    url : "http://feeds.feedburner.com/BagelTechMacVideo?format=xml"
+    url : "http://www.britishtechnetwork.com/feed/mac-video"
 }
 
 Server.init = function()
